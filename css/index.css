@@ -1,37 +1,66 @@
 * {
     margin: 0px;
     padding: 0px;
-
+    box-sizing: border-box;
+    /* Inicia con una inlinación  */
+    background: linear-gradient(15deg, #000a20, #bb5d5d, #000a20);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
 }
 
-
-.titulo {
-    color: #030303;
-    border: 2px solid #dedede;
+.tituloInd {
+    padding: 7%; 
     text-align: center;
-    padding-bottom: 20px;
-    /* Agrega un espacio de 20 píxeles debajo del encabezado */
-}
-
-.divprinCar {
-    display: flex;
-    flex-direction: row;
    
+}
+
+.divpagPrin {
+    margin: 5%;
+   
+    text-align: center;
+     color: aliceblue;
 
 }
-.divTexto {
-    width: 50%;
+/* Se creo el tipo de animación */
+@keyframes BgGradient {
+    0% {
+        /* la imagen empieza en el extremo izquierdo */
+        background-position: 0% 50%;
+    }
 
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
-    
-.divContador {
-    width: 50%;
-    background-color: #e4e4e4;
-    border: 2px solid #050505;
+.secPaginaPrin a{
+    /* cambia el color de a  */
+    /* color:#000000;
+    font-size: 20px;
+    font-weight: bolder;
+    word-spacing: 20px;
+    text-decoration: none;
+    padding: 25px; */
+   color: aliceblue;
+   font-size: 20px;
+   /* Aumenta el grosor de la fuente */
+   font-weight: bolder;
+   text-decoration: none;
+   padding: 5px;
 }
-.ingresodeDat{
-    /* width: 327px;
-    height: 40px; */
-    width:100%;
-    height: 100%;
+   
+.secPaginaPrin nav{
+   /* establecer la posicion y el tamaño de navegación*/
+   grid-area: navegacion;
+}
+
+.secPaginaPrin nav  a:hover{
+    /* Cambiar el color de fodo cuando pase el cursor */
+    color: #f0f8ff;
+    background-color: #000000;
+    border-bottom: 4px solid #575757;
+    box-shadow: 10px 5px 16px 5px #6e1f1f;
 }
