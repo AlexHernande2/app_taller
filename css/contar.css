@@ -22,14 +22,11 @@
 
 .divTexto {
     width: 50%;
-
-
 }
-
 
 .divContador {
     width: 50%;
-    background-color: #e8e8e8fa;
+    background-color: #8f8f8ffa;
     border: 2px solid #050505;
     /* Siguientes codigo para centrar el texto */
     display: flex;

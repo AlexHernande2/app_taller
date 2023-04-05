@@ -37,13 +37,6 @@
     }
 }
 .secPaginaPrin a{
-    /* cambia el color de a  */
-    /* color:#000000;
-    font-size: 20px;
-    font-weight: bolder;
-    word-spacing: 20px;
-    text-decoration: none;
-    padding: 25px; */
    color: aliceblue;
    font-size: 20px;
    /* Aumenta el grosor de la fuente */
@@ -62,5 +55,5 @@
     color: #f0f8ff;
     background-color: #000000;
     border-bottom: 4px solid #575757;
-    box-shadow: 10px 5px 16px 5px #6e1f1f;
+    box-shadow: 10px 5px 16px 5px #0c28db;
 }

@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #b8ccdf;
+}
+
+.secTip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tituloIden{
+    border: 2px solid #000;
+    text-align: center;
+    padding: 2%;
+}
+
+.divIngreseD{
+    margin: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
