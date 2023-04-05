@@ -3,6 +3,23 @@
     padding: 0px;
     background-color: #f0f0f0;
 }
+/**/
+#contador{
+    min-height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2022/08/03/13/09/moon-7362632__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Lo siguiete ayuda a opacar la imagen */
+    /* background: linear-gradient(#d5e7f9bf,
+            #45454600),
+        url(https://cdn.pixabay.com/photo/2022/08/03/13/09/moon-7362632__340.jpg);
+    background-size: cover; */
+    /*cover para que la iamgen cubra todo*/
+
+}
+
+/**/
 
 .tituloCarac {
     margin: 6px;
@@ -32,6 +49,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #d77c7c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
