@@ -11,7 +11,9 @@
 .tituloInd {
     padding: 7%; 
     text-align: center;
-   
+    color: #f0f8ff;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .divpagPrin {

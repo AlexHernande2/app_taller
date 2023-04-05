@@ -45,6 +45,11 @@
     border-bottom: 4px solid #575757;
     box-shadow: 10px 5px 16px 5px #19bd47;
 }
+.secTip a:hover{
+     /* Cambiar el color de fodo cuando pase el cursor */
+     color: #f0f8ff;
+     box-shadow: 10px 5px 16px 5px #0c28db;
+}
 
 .lbingreso{
     color: #000000; 
