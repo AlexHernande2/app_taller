@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* Inicia con una inlinación  */
-    background: linear-gradient(15deg, #000a20, #bb5d5d, #000a20);
+    background: linear-gradient(15deg, #04060c, #850404, #4c120efd);
+    /* background: linear-gradient(15deg, #000a20, #bb5d5d, #000a20); */
     background-size: 400% 300%;
     animation: BgGradient 5s ease infinite;
 }
@@ -57,5 +57,5 @@
     color: #f0f8ff;
     background-color: #000000;
     border-bottom: 4px solid #575757;
-    box-shadow: 10px 5px 16px 5px #0c28db;
+    box-shadow: 10px 5px 16px 5px #0cdb35;
 }
