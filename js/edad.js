@@ -1,4 +1,4 @@
-function mayorEdad(){
+ function mayorEdad(){
     let edad = document.getElementById('edad').value;
     let nombre = document.getElementById('nombre').value;
     if(!nombre){
@@ -6,9 +6,9 @@ function mayorEdad(){
     }else{
         if(!edad){
             alert ('Debe ingresar una edad');
-        }else if (edad >=18){
+        }else if (edad >=18 && edad <=200){
             alert ('Hola ' + nombre + ' Eres mayor de Edad');
-        }else if (edad >0){
+        }else if (edad >0 && edad <=17){
             alert ('Hola '+ nombre + ' Eres menor de edad' );
         }else if(edad ==0){
             alert ('No es una edad valida');
