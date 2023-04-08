@@ -10,16 +10,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* Lo siguiete ayuda a opacar la imagen */
-    /* background: linear-gradient(#d5e7f9bf,
-            #45454600),
-        url(https://cdn.pixabay.com/photo/2022/08/03/13/09/moon-7362632__340.jpg);
-    background-size: cover; */
-    /*cover para que la iamgen cubra todo*/
-
 }
 
-/**/
+
 
 .tituloCarac {
     margin: 6px;

@@ -1,15 +1,15 @@
 
 function validar() {
     let validarD = document.getElementById('datoInp').value;
+    let result ="";
     if (validarD.trim() === '') {
     // trim para eliminar espacios en blanco y comprobar si es una cadena vacia 
-        document.getElementById('result').innerHTML = 'Debe ingresar al menos un dato';
+        result = 'Debe ingresar al menos un dato';
     } else if (isNaN(validarD)) {
-        document.getElementById('result').innerHTML = 'A ingresado texto';
+        result = 'A ingresado texto';
     } else {
-        document.getElementById('result').innerHTML = 'A ingresado un numero';
+        result = 'A ingresado un numero';
     }
+    document.getElementById('result').innerHTML = result;
 }
-
-
 
