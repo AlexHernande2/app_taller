@@ -1,7 +1,7 @@
 function mayorEdad() {
     const edad = document.getElementById('edad').value;
     const nombre = document.getElementById('nombre').value;
-    if (!nombre) {
+    if (nombre.trim() == '') {
         alert('Debe ingresar un nombre');
     } else {
         if (!edad) {
