@@ -6,9 +6,9 @@ function validar() {
     // trim para eliminar espacios en blanco y comprobar si es una cadena vacia 
         result = 'Debe ingresar al menos un dato';
     } else if (isNaN(validarD)) {
-        result = 'A ingresado texto';
+        result = 'Tipo de dato texto';
     } else {
-        result = 'A ingresado un numero';
+        result = 'Tipo de dato número';
     }
     document.getElementById('result').innerHTML = result;
 }
