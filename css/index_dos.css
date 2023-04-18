@@ -3,8 +3,8 @@ body {
     margin: 0;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);  /* Crea 5 columnas de ancho flexible y proporcional */
+    grid-template-rows: 1fr;  /* Crea una sola fila con altura flexible y proporcional */
 }
 
 .background-one {
@@ -37,12 +37,12 @@ a {
 .link-one {
     color: #3cff00;
     transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
-    line-height: 1em;
+    line-height: 1em;/* Se establece la altura de línea del texto a 1em */
 }
 
 .link-one:hover {
     color: #000000;
-    transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
+    transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);  /* Establece la transición para el cambio de color de texto al pasar el cursor */
 }
 
 .link-one::before {

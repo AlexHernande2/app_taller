@@ -1,4 +1,3 @@
-
 function validarProme() {
     const nombreEst = document.getElementById('nombre').value;
     const nomMateria = document.getElementById('nombreMateria').value;
@@ -23,7 +22,7 @@ function validarProme() {
                     'Lo siento ' + nombreEst + ',' + '<font color="red"> su nota es ' + promedio + '</font>' + ', ' + 'No pasaste la materia de ' + nomMateria;
             } else {
                 alert('Las notas deben estar entre 0 y 5')
-                outPromedio.innerHTML="";
+                outPromedio.innerHTML = "";
             }
         }
     }

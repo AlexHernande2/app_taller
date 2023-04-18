@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fbfbfb;
+}
+
+.principal{
+       /* para centrar el recuadros */
+    /* fixed posicion fija */
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /*Centrar*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20px;
+    align-items: flex-start;
+    /* gap : 10px; */
+}
+.titulo{
+    text-align: center;
+    border: 2px solid #000;
+    padding: 1%;
+}
+.prinform{
+    /* estructura para el borde y margenes */
+    border: 2px solid #000000;
+    padding: 15px;
+    /* borde redondo */
+    border-radius: 15px;
+}
+
+.btnCalcular{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btnCalcular button {
+    background-color: #008000;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border-radius:15px;
+    /* pone como una mano sobre el boton */
+    /* cursor: pointer;  */
+    cursor: url('https://ani.cursors-4u.net/games/images16/gam1570.png'), auto;
+   
+}
+
+.btnCalcular button:hover{
+     /*Para el cursor el hover*/
+     background-color: #fff;
+     border: 1px solid #008000;
+     color: #008000;
+}

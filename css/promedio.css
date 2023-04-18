@@ -34,10 +34,10 @@
     padding-bottom: 5px;
     margin: 15px;
     border-radius: 15px;
-    background-color: #ffffff;
-    background-color: unset;
-    opacity: 1;
+    background-color: unset; /*Para eliminar cualquier valor de color de fondo*/
 }
+
+
 
 .formNotas label,
 input,
@@ -80,11 +80,15 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.formNotas label {
+    -webkit-text-stroke: 0.4px #ffffff;
+}
+
 .mensajeOut {
-    font-size: 20px;
+    font-size: 26px;
     font-family: Impact, 'Arial Narrow Bold';
     /* Ponerle bordes al texto */
-    -webkit-text-stroke: 0.3px white;
+    -webkit-text-stroke: 0.4px #5aacff;
 }
 
 .miVideo {
@@ -107,4 +111,7 @@ button {
       color: #3b92df;
       font-size: 19px;
       box-shadow: 10px 5px 16px 5px #e22b34;
+}
+.conten input{
+    width: 100%;
 }
