@@ -4,31 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/tipo_numero.css">
     <title>par_impar</title>
 </head>
 
 <body>
+
     <h1 class="titulo">Identificador de datos numéricos</h1>
-    <a href="index_dos.html">Volver</a>
+    <a class="volver" href="index_dos.html">Volver</a>
     <section class="principal">
+
         <form class="prinform">
             <div class="datos">
                 <label>Ingrese un Número</label>
                 <input id="inpNumero" name="numero" type="number" min="0">
             </div>
             <div class="btnCalcular">
-                <button  type="button" onclick="parImpar()">Calcular</button>
+                <button type="button" onclick="parImpar()">Calcular</button>
             </div>
         </form>
-        <div>
+        <div class="resul">
             <br>
             <output id="outResultado"></output>
         </div>
 
     </section>
     <script src="../js/tipo_numero.js"></script>
+
+   
+
+
+
+    
 
 </body>
 
