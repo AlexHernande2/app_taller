@@ -28,3 +28,7 @@
   /*height: 100vmax; */
   height: 50vh;
 }
+
+.highlight {
+    background-color: #ff0000;
+}
