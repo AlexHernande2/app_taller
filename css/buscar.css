@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sectionprin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.sectionprin h1 {
+    justify-content: center;
+    text-align: center;
+    border: solid #000;
+    border-radius: 15px;
+    font-size: 35px;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+.form-buscar{
+    margin-bottom: 2%;
+}
+
+.textaDat{
+   width: 100%;
+  /*height: 100vmax; */
+  height: 50vh;
+}
