@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-h1{
-   border: 2px solid #000 ; 
-   text-align: center;
-   padding: 1%;
-   color: aliceblue;
+h1 {
+    border: 2px solid #000;
+    text-align: center;
+    padding: 1%;
+    color: aliceblue;
 }
 
-.secNumeros{
+.secNumeros {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -22,17 +22,47 @@ h1{
     z-index: 1;
 }
 
-.contenido{
+.contenido {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-     /* 3opx para mergenes laterales y 20 px para los superiores de los int entre input y lb*/
+    justify-content: center;
+    align-content: center;
+    /* 3opx para mergenes laterales y 20 px para los superiores de los int entre input y lb*/
     margin: 20px 30px;
+    flex-wrap: wrap;
 }
-.form_numeros{
+
+.form_numeros {
     border: 2px solid #ffffff;
-    border-radius: 15px ;
+    border-radius: 15px;
     background: rgba(240, 240, 240, 0.4);
+}
+
+.btn-calcular {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-calcular button {
+    background-color: #0bab6b;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border-radius: 15px;
+    /* pone como una mano sobre el boton con pointer*/
+    cursor: pointer;
+
+}
+
+.btn-calcular button:hover {
+    /*Para el cursor el hover*/
+    background-color: #ffffff;
+    border: 1px solid #008000;
+    color: #000000;
+    box-shadow: 10px 5px 16px 5px #1be3f9;
 }
 
 .miVideo {
@@ -46,16 +76,19 @@ h1{
     /* se ajusta al tamaño del contendor */
     object-fit: cover;
 }
-.volver{
+
+.volver {
     color: #ffffff;
     text-decoration: none;
 }
-.volver:hover{
-      /* Cambiar el color de fodo cuando pase el cursor */
-      color: #3b92df;
-      font-size: 19px;
-      box-shadow: 10px 5px 16px 5px #e22b34;
+
+.volver:hover {
+    /* Cambiar el color de fodo cuando pase el cursor */
+    color: #3b92df;
+    font-size: 19px;
+    box-shadow: 10px 5px 16px 5px #e22b34;
 }
-.resultado{
+
+.resultado {
     background: rgba(240, 240, 240, 0.9);
 }
