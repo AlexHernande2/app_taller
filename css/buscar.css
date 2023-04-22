@@ -8,10 +8,6 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    /* background: linear-gradient(#d5e7f9da,
-            #45454600),
-        url(https://cdn.pixabay.com/photo/2014/08/30/06/49/singapore-431421__340.jpg);
-    background-size: cover; */
     background: url(https://cdn.pixabay.com/photo/2014/08/30/06/49/singapore-431421__340.jpg);
     /*para que la iamgen cubra todo*/
     background-size: cover;
