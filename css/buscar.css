@@ -1,14 +1,20 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.sectionprin{
+.sectionprin {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
+    background: linear-gradient(#d5e7f9bf,
+            #45454600),
+        url(https://cdn.pixabay.com/photo/2023/03/15/20/55/sunbeam-7855454__340.jpg);
+    background-size: cover;
+
 }
+
 .sectionprin h1 {
     justify-content: center;
     text-align: center;
@@ -19,14 +25,65 @@
     margin-bottom: 1%;
 }
 
-.form-buscar{
-    margin-bottom: 2%;
+.sec-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
 }
 
-.textaDat{
-   width: 100%;
-  /*height: 100vmax; */
-  height: 50vh;
+.form-buscar {
+    border: 2px solid #000000;
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 20px para mergenes laterales y 10 px para los superiores de los int entre input y lb*/
+    margin: 12px 20px;
+}
+
+
+.btn-cal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.btn-cal button {
+    background-color: #007780;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border-radius: 15px;
+    /* pone como una mano sobre el boton con pointer*/
+    cursor: pointer;
+
+}
+
+.btn-cal button:hover {
+    /*Para el cursor el hover*/
+    background-color: #fffb8a;
+    border: 1px solid #008000;
+    color: #000000;
+    box-shadow: 10px 5px 16px 5px #1be3f9;
+}
+
+
+
+
+.textaDat {
+    width: 100%;
+    /*height: 100vmax; */
+    height: 50vh;
 }
 
 .highlight {

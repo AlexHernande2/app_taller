@@ -10,23 +10,26 @@
 <body>
     <h1>hola</h1>
     <a href="index_dos.html">Volver</a>
-    <section>
-        <form action="">
+    <section class="principal">
+        <!-- <section class="principal"> -->
+            <form class="for">
+                <div class="contenido-form">
+                    <label >Ingrese los números a calcular</label>
+                    <input id="numeros" type="text">
+                </div>
+                <div class="contenido-form">
+                    <button type="button" onclick="tip_numero()">Calcular</button>
+                </div>
+            </form>
+            <!-- </section> -->
+            <!-- <section> -->
             <div>
-                <label>Ingrese los números a calcular</label>
-                <input type="number">
+                <h2>e</h2>
+                <output id="resultado"></output>
             </div>
-            <div>
-                <button type="button">Calcular</button>
-            </div>
-        </form>
+        <!-- principal -->
     </section>
-    <section>
-        <div>
-            <h2>e</h2>
-            <output></output>
-        </div>
-    </section>
+    
     <script src="../js/list_num.js"></script>
 
 </body>

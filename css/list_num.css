@@ -1,4 +1,23 @@
-*{
+* {
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
 }
+
+.principal {
+    display: flex;
+    /* Crea 2 columnas de ancho flexible y proporcional */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.contenido-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    grid-column: 2;
+}
+
