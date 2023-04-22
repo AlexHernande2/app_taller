@@ -8,9 +8,12 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#d5e7f9bf,
+    /* background: linear-gradient(#d5e7f9da,
             #45454600),
-        url(https://cdn.pixabay.com/photo/2023/03/15/20/55/sunbeam-7855454__340.jpg);
+        url(https://cdn.pixabay.com/photo/2014/08/30/06/49/singapore-431421__340.jpg);
+    background-size: cover; */
+    background: url(https://cdn.pixabay.com/photo/2014/08/30/06/49/singapore-431421__340.jpg);
+    /*para que la iamgen cubra todo*/
     background-size: cover;
 
 }
@@ -23,6 +26,8 @@
     font-size: 35px;
     padding: 2%;
     margin-bottom: 1%;
+    background: rgba(240, 240, 240, 0.1);
+    -webkit-text-stroke: 0.1px #f81f1f;
 }
 
 .sec-form {
@@ -37,6 +42,8 @@
     border: 2px solid #000000;
     border-radius: 12px;
     flex-direction: column;
+    /* para agregar que se vea opaco */
+    background: rgba(240, 240, 240, 0.46);
 }
 
 .contenedor {
@@ -53,8 +60,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .btn-cal button {
@@ -77,15 +82,46 @@
     box-shadow: 10px 5px 16px 5px #1be3f9;
 }
 
-
-
-
 .textaDat {
+    color: #000;
     width: 100%;
     /*height: 100vmax; */
     height: 50vh;
+    background: transparent;
+    background: rgba(240, 240, 240, 0.48);
+}
+
+.textaDat::placeholder {
+    color: #000000;
+}
+
+.respuesta {
+    background: rgba(240, 240, 240, 0.46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resultado h2 {
+    /* Ponerle bordes al texto */
+    color: #fff;
+    -webkit-text-stroke: 0.2px #f81f1f;
 }
 
 .highlight {
     background-color: #aaff00;
+}
+
+.volver {
+    text-decoration: none;
+    color: #ffffff;
+    background: transparent;
+    display: inline-block;
+    width: 5%;
+}
+
+.volver:hover {
+    background-color: #0fe0ce;
+    border: 1px solid #fcfcfc;
+    /* Cambiar el color de fodo cuando pase el cursor */
+    color: #ff0000;
+    box-shadow: 10px 5px 16px 5px #9d0cdb;
 }
