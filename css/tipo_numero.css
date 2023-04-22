@@ -44,8 +44,6 @@
     border-radius: 15px;
     /* para que se vea un poco mas opaco el 0.46 */
     background: rgba(240, 240, 240, 0.46);
-
-
 }
 
 .btnCalcular {
@@ -53,7 +51,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
 }
 
 .btnCalcular button {
@@ -65,7 +62,6 @@
     border-radius: 15px;
     /* pone como una mano sobre el boton con pointer*/
     cursor: url('https://ani.cursors-4u.net/games/images16/gam1570.png'), pointer;
-
 }
 
 .btnCalcular button:hover {
@@ -79,7 +75,6 @@
 output {
     background: transparent;
     font-size: 20px;
-
 }
 
 #outResultado {
