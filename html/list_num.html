@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,28 +8,26 @@
 </head>
 
 <body>
-    <h1>hola</h1>
+    <h1 class="titulo">Par o Impar</h1>
     <a href="index_dos.html">Volver</a>
-    <section class="principal">
-        <!-- <section class="principal"> -->
-            <form class="for">
-                <div class="contenido-form">
-                    <label >Ingrese los números a calcular</label>
-                    <input id="numeros" type="text">
-                </div>
-                <div class="contenido-form">
-                    <button type="button" onclick="tip_numero()">Calcular</button>
-                </div>
-            </form>
-            <!-- </section> -->
-            <!-- <section> -->
-            <div>
-                <h2>e</h2>
-                <output id="resultado"></output>
+    <div class="contenedor-prin">
+        <form class="form-conten">
+            <div class="contenido-form">
+                <label>Ingrese los números a calcular</label>
+                <input id="numeros" type="text">
             </div>
-        <!-- principal -->
-    </section>
-    
+            <div class="contenido-form">
+                <button type="button" onclick="tip_numero()">Calcular</button>
+            </div>
+        </form>
+
+        <div class="conenido">
+            <h2>Resultado</h2>
+            <output id="resultado"></output>
+        </div>
+    </div>
+
+
     <script src="../js/list_num.js"></script>
 
 </body>
