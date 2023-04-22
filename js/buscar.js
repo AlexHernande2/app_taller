@@ -1,7 +1,7 @@
 function buscartxt() {
     //toLowerCase convierte en minusculas
     const textoBuscar = document.getElementById('inpText').value.toLowerCase();
-    const textIngr = document.getElementById('textoingresado').value.toLowerCase();;
+    const textIngr = document.getElementById('textoingresado').value.toLowerCase();
     let textoencontrado = '';
     //(indexOf)  busca  el string si no lo encuentra envia un valor de -1
     let posicion = textIngr.indexOf(textoBuscar);

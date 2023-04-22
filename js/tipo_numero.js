@@ -14,7 +14,7 @@ function parImpar() {
     } else if (numero < 0) {
         result = 'Debe ingresar números positivos';
     } else if (isNaN(numero)) {
-        result = 'Debe ingresar por lo menos un número'
+        result = 'Debe ingresar por lo menos un número';
     }
     else {
         result = 'Debe ingresar un entero ';

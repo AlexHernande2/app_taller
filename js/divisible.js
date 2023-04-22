@@ -24,15 +24,10 @@ function validarnumeros() {
         resultado = 'Los números ' + num1 + ' y ' + num2 + ' no son enteros positivos';
     } else if (!Number.isInteger(num1) && !Number.isInteger(num2)) {
         resultado = 'Los números' + num1 + ' y ' + num2 + ' no son enteros ';
-    }else if (num1<0){
-        resultado=' El número '+ num1 + ' no es positivo';
-    }else if (num2<0){
-        resultado=' El número '+ num2 + ' no es positivo';
+    } else if (num1 < 0) {
+        resultado = ' El número ' + num1 + ' no es positivo';
+    } else if (num2 < 0) {
+        resultado = ' El número ' + num2 + ' no es positivo';
     }
-
-
-
     document.getElementById('result_divi').innerHTML = resultado;
-
-
 }
