@@ -13,7 +13,6 @@
         url(https://cdn.pixabay.com/photo/2023/03/15/20/55/sunbeam-7855454__340.jpg);
     background-size: cover;
     /*para que la iamgen cubra todo*/
-
 }
 
 .secTip {
@@ -53,4 +52,7 @@
 .lbingreso{
     color: #000000; 
     font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.secTip output{
+    font-size: 1.3em;
 }
