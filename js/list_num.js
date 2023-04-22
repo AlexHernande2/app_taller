@@ -6,15 +6,13 @@ function tip_numero() {
 
         let num = parseFloat(lista[i].trim());
         if (!Number.isInteger(num)) {
-            result += lista[i] + ' No es un número entero <br>';
+            result += lista[i] + '  <font color = "red" > No es un número entero <br>  </font>';
         } else if (num % 2 == 0) {
-            result += lista[i] + ' Es par <br>';
-        } else if (num % 2 != 0) {
-            result += lista[i] + ' Es impar <br>';
-        } else {
-            result += ' A ingresado valores erroneos <br>'
+            result += lista[i] + '<font color = "blue" > Es par <br> </font>';
+        }else {
+            // result += ' A ingresado valores erroneos <br>'
+            result += lista[i] +  ' <font color = "green" > Es impar <br> </font>';
         }
-
     }
 
     document.getElementById('resultado').innerHTML = result;
