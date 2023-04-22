@@ -1,26 +1,29 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: #f0f0f0;
+    background-color: #cdcdcd;
+
 }
-/**/
-#contador{
+
+#contador {
     min-height: 100vh;
-    background: url(https://cdn.pixabay.com/photo/2022/08/03/13/09/moon-7362632__340.jpg);
+    background: url(https://cdn.pixabay.com/photo/2023/03/11/20/12/moon-7845194__340.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-
 .tituloCarac {
-    margin: 6px;
-    padding: 0px;
+    border: 2px solid #f00707;
     text-align: center;
-    text-shadow: 2px 2px 4px #af020280;
-    /* Agrega un espacio de 20 píxeles debajo del encabezado */
-    padding-bottom: 10px;
+    /* Margen interior superior */
+    padding-top: 10px;
+    /* Margen Inferior interna*/
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(45deg, #faa051, #10659e, #e8d82a);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite
 }
 
 .divprinCar {
@@ -42,9 +45,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #d77c7c;
+    color: #d30000;
+    /* 2em aumento del tamaño de letra */
+    font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    /* Ponerle bordes al texto */
+    -webkit-text-stroke: 0.4px #ffffff;
 }
 
 .ingresodeDat {
@@ -55,4 +61,31 @@
     font-family: 'Times New Roman', Times, serif;
     box-shadow: #0092c769;
     border-color: #8d4141;
+}
+
+.volver {
+    color: #000000;
+    text-decoration: none;
+}
+
+.volver:hover {
+    /* Cambiar el color de fodo cuando pase el cursor */
+    color: #f9f9f9;
+    background-color: #3c86f6;
+    font-size: 19px;
+    box-shadow: 10px 5px 16px 5px #73ff00;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
