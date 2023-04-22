@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Numeros divisibles</title>
+    <link rel="stylesheet" href="../css/divisible.css">
+
+</head>
+
+<body>
+    <h1>Numeros Divisibles</h1>
+    <a href="index_dos.html">Volver</a>
+    <section class="secNumeros">
+        <form class="form_numeros">
+            <div class="contenido">
+                <label>Primer número</label>
+                <input id="num1" type="number" min="0">
+            </div>
+            <div class="contenido">
+                <label for="">Segundo número</label>
+                <input id="num2" type="number" min="0" >
+            </div>
+            <div class="contenido">
+                <button id="calcular" type="button" onclick="validarnumeros()">Calcular</button>
+            </div>
+        </form>
+        <div class="contenido">
+            <output id="result_divi"></output>
+        </div>
+    </section>
+    <script src="../js/divisible.js"></script>
+
+</body>
+
+</html>
